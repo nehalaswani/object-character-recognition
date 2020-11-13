@@ -5,7 +5,7 @@ from PIL import ImageGrab
 import time
 
 pytesseract.pytesseract.tesseract_cmd = 'C:\\Users\\dell\\Tesseract-OCR\\tesseract.exe'
-img = cv2.imread('/Users/dell/Desktop/internship/n5.jpg')
+img = cv2.imread('image.png')
 img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 #print(pytesseract.image_to_string(img))
 
